@@ -1,0 +1,185 @@
+[
+  {
+    "id": "finger-flexion-glove",
+    "featured": true,
+    "title": "Finger Flexion Glove",
+    "summary": "Hardware module for Muscle to Movement at UBC that measures finger flexion angles to gamify at-home rehab for patients with multiple sclerosis.",
+    "image": "img/portfolio/16.jpg",
+    "tags": ["Hardware", "Rehab", "Biomedical"],
+    "category": "Project",
+    "video": "img/portfolio/1.mp4",
+    "overview": "One of the first projects I got involved with through Muscle to Movement at UBC as a hardware engineer. I worked on gamifying rehabilitation for patients with multiple sclerosis, replacing in-person physiotherapist sessions with guided module activities patients can do independently at home.\n\nI focused on creating a module to measure finger flexion angles, adopting the techniques physiotherapists use to isolate PIP and DIP joint movements.",
+    "problem": "Patients with multiple sclerosis need guided rehab they can do at home. Measuring finger flexion accurately — especially isolating PIP and DIP joints the way a physiotherapist would — is hard to do without in-person sessions.",
+    "approach": "I first explored motion tracking with MediaPipe Pose for real-time finger joint angles from a single camera. That lacked accuracy and depth, so I shifted to a physical prototype with flex sensors. Off-the-shelf flex sensors were too long to sit on both joints without overlapping, so I built smaller custom sensors tailored to each joint.",
+    "contribution": "Designed and built the finger flexion measurement module end-to-end: MediaPipe tracking prototype, custom flex sensors, and the first physical glove prototype wired to microcontroller readout.",
+    "technical": "ESP32 · Arduino Uno · Arduino IDE (C) · custom flex sensors · MediaPipe Pose · PIP/DIP joint isolation.",
+    "impact": "Completed prototype one for the finger flexion module within Muscle to Movement's broader goal of independent, gamified MS rehab at home.",
+    "future": "Continue working on new adaptations in the coming semester.",
+    "links": [
+      { "label": "Try Finger Joint Tracking", "href": "https://fingerflexiontracking.vercel.app/?_vercel_share=y3ZOx1nCfrEV8MbTTMvQuIlpIpz2adho" }
+    ]
+  },
+  {
+    "id": "brain-controlled-keyboard",
+    "featured": true,
+    "title": "Brain Controlled Keyboard",
+    "summary": "Using the Muse headset, a meditation band, I extracted brainwaves and used them to identify changes in delta wave values to detect blinks and control certain commands on my keyboard.",
+    "image": "img/portfolio/1.jpg",
+    "tags": ["BCI", "Accessibility", "Hardware"],
+    "category": "Project",
+    "video": "https://www.youtube.com/embed/He2DPdoQe5w",
+    "overview": "Using the Muse headset, a meditation band, I extracted brainwaves and used them to identify changes in delta wave values to detect blinks and control certain commands on my keyboard.\n\nThis empathy-oriented design focuses on improving accessibility for those with limited mobility, such as ALS patients.",
+    "problem": "People with limited mobility, especially ALS patients, lack accessible ways to interact with computers using conventional input devices. Traditional assistive tech can be expensive or poorly matched to real user constraints.",
+    "approach": "I used a Muse meditation headset to stream EEG data, identified blink-related changes in delta wave values, and mapped those signals to keyboard commands — creating a low-cost brain-controlled input pathway.",
+    "contribution": "Designed and built the full pipeline: signal extraction from the Muse headset, blink detection logic, and keyboard command mapping. Documented the research publicly on Medium.",
+    "technical": "Muse headset EEG · delta wave analysis · blink detection · keyboard command control · accessibility-first interaction design.",
+    "impact": "Demonstrates a practical, empathy-oriented path toward brain-controlled accessibility tools centered on user needs rather than novelty.",
+    "future": "Extend command vocabulary, improve signal robustness in real environments, and explore clinical partnerships for assistive use cases.",
+    "links": [
+      { "label": "Read the project research", "href": "https://medium.com/@inayat.kang1/tapping-into-the-brain-to-control-a-keyboard-b2d206827a04" }
+    ]
+  },
+  {
+    "id": "drones-smarter-farming",
+    "featured": true,
+    "title": "Drones for Smarter Farming",
+    "summary": "This project focuses on creating data-driven farming, putting sensor data, irrigation recommendations, rain probability, and insights into crop health right into the hands of farmers.",
+    "image": "img/portfolio/2.jpg",
+    "tags": ["IoT", "Research", "Agriculture"],
+    "category": "Research · Project",
+    "video": "",
+    "overview": "This project focuses on creating data-driven farming, putting sensor data, irrigation recommendations, rain probability, and insights into crop health right into the hands of farmers.\n\nAfter weeks of research, I had the opportunity to present my project alongside 9 other recipients of the WISE Award at the WISE Research Symposium.",
+    "problem": "Farmers need affordable, real-time insight into crop health and water usage without intensive fieldwork. Existing solutions are often costly or inaccessible.",
+    "approach": "As part of the WiseUCalgary research program at the University of Calgary, I developed a real-time crop monitoring drone system integrating IoT sensors. This project aimed to optimize crop health and water usage by tracking environmental data such as temperature, humidity, and light levels.",
+    "contribution": "Built and researched the monitoring system with the Intelligent Dynamics Control Lab. Collaborated with a multidisciplinary team on sensor integration and data analysis, contributing to a low-cost solution that enhances agricultural efficiency while minimizing fieldwork.",
+    "technical": "IoT sensors · drone-based monitoring · environmental data (temperature, humidity, light) · irrigation and crop-health insights.",
+    "impact": "Awarded WISE STEM Award by the University of Calgary. Presented at the WISE Research Symposium. Deepened understanding of technology and sustainable farming practices.",
+    "future": "Scale farmer-facing insights, refine irrigation recommendations, and expand field validation.",
+    "links": [
+      { "label": "Read the project research on Medium", "href": "https://medium.com/@inayat.kang1/the-new-direction-for-farming-how-im-making-it-smarter-87120671ee98" },
+      { "label": "WISE STEM Award", "href": "https://www.linkedin.com/feed/update/urn:li:activity:7239125709904891905/" }
+    ]
+  },
+  {
+    "id": "crustex-microplastics",
+    "featured": true,
+    "title": "Solving the Microplastic Crisis",
+    "summary": "Hackathon project where my group and I developed Crustex, a sustainable solution to the rising numbers of microplastics found in synthetic clothing.",
+    "image": "img/portfolio/3.jpg",
+    "tags": ["Sustainability", "Research", "Materials"],
+    "category": "Research",
+    "video": "",
+    "overview": "Hackathon project where my group and I developed Crustex, a sustainable solution to the rising numbers of microplastics found in synthetic clothing.\n\nReceived the Most Innovative Idea Award from TKS.",
+    "problem": "Synthetic clothing sheds microplastics that accumulate in ecosystems and water systems at rising rates.",
+    "approach": "Developed Crustex — a biosynthetic textile approach aimed at reducing microplastic pollution from clothing — during a TKS hackathon with my group.",
+    "contribution": "Co-developed the concept and research narrative; published the project research and programmed the project website.",
+    "technical": "Biosynthetic textiles · materials research · sustainability systems thinking · product narrative and web presentation.",
+    "impact": "Received the Most Innovative Idea Award from TKS.",
+    "future": "Further materials validation and pathways from concept to prototype.",
+    "links": [
+      { "label": "Read the project research on Medium", "href": "https://medium.com/@inayat.kang1/solving-the-microplastic-crisis-using-biosynthetic-textiles-ee7470563414" },
+      { "label": "View the programmed website", "href": "https://crustex.typedream.app/" }
+    ]
+  },
+  {
+    "id": "nurture-app",
+    "featured": true,
+    "title": "Nurture App",
+    "summary": "Developed an app through Technovation girls to help new mother identify post partum depression to gain proper healthcare support while acting as data base for medical professionals to gather accurate information and real numbers pertaining this issue.",
+    "image": "img/portfolio/6.jpg",
+    "tags": ["Healthtech", "Founder", "Product"],
+    "category": "Project",
+    "video": "https://www.youtube.com/embed/cydR6Cy84HY",
+    "overview": "Developed an app through Technovation girls to help new mother identify post partum depression to gain proper healthcare support while acting as data base for medical professionals to gather accurate information and real numbers pertaining this issue.\n\nWhile this started as a project, it quickly became something much bigger. As we spoke to mothers who have experienced postpartum depression, we realized the immense impact it has on individuals and society as a whole.\n\nNow, this has form Nurture Biotech, where as Co-founder, programmer and Product Manager, I help expand our company's vision by meeting with advisors and mentors.",
+    "problem": "Postpartum depression is under-identified and under-supported. Mothers and clinicians lack accessible tools and accurate real-world data.",
+    "approach": "Built a Technovation app for postpartum depression identification and support, then grew the work into Nurture Biotech through conversations with mothers, advisors, and mentors.",
+    "contribution": "Co-founder, programmer, and Product Manager — building the product and expanding the company vision with advisors and mentors.",
+    "technical": "Mobile app development · product management · maternal health screening workflows · clinical data considerations.",
+    "impact": "Grew from a Technovation project into Nurture Biotech, centered on maternal mental health support and clinical data.",
+    "future": "Continue expanding Nurture Biotech's vision with advisors, mentors, and healthcare partners.",
+    "links": [
+      { "label": "View Nurture's Mission", "href": "https://www.canva.com/design/DAGXI4SKWlc/Q-r13WtP3uRcce3sbnhlLg/edit?utm_content=DAGXI4SKWlc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" },
+      { "label": "View the GitHub repo", "href": "https://github.com/Fyrebolt700/Technovation-2024-updated-" }
+    ]
+  },
+  {
+    "id": "google-ads-consulting",
+    "featured": false,
+    "title": "Guiding businesses to optimize their usage of Google Ads",
+    "summary": "Consulting work helping businesses optimize their Google Ads strategy and performance.",
+    "image": "img/portfolio/4.jpg",
+    "tags": ["Consulting", "Google"],
+    "category": "Consulting",
+    "external": "https://docs.google.com/presentation/d/1_DbaVL8ly9V-e3le3Gckazmtj1Q50aXdanz3lBQHY8A/edit?usp=sharing",
+    "overview": "Consulting engagement guiding businesses to optimize their usage of Google Ads.",
+    "problem": "Businesses often underutilize or misconfigure Google Ads, limiting reach and return.",
+    "approach": "Analyzed advertising usage and presented optimization guidance through a structured consulting presentation.",
+    "contribution": "Delivered consulting recommendations and presentation materials for Google Ads optimization.",
+    "technical": "Google Ads strategy · business consulting · presentation design.",
+    "impact": "Provided actionable guidance for businesses optimizing paid acquisition.",
+    "future": "",
+    "links": [
+      { "label": "Open presentation", "href": "https://docs.google.com/presentation/d/1_DbaVL8ly9V-e3le3Gckazmtj1Q50aXdanz3lBQHY8A/edit?usp=sharing" }
+    ]
+  },
+  {
+    "id": "wef-education-systems",
+    "featured": false,
+    "title": "Systems Design Integration in Classrooms to Disrupt Education",
+    "summary": "Systems design consulting on integrating technology and design thinking into classroom environments.",
+    "image": "img/portfolio/5.jpg",
+    "tags": ["Consulting", "Education", "Systems Design"],
+    "category": "Consulting",
+    "external": "https://docs.google.com/presentation/d/15js9pRTkDsCz-0Jb_hHqnNThVMECJJil/edit",
+    "overview": "Systems design consulting focused on integrating technology and design thinking into classroom environments to disrupt education.",
+    "problem": "Classrooms need better systems integration to support modern learning and innovation.",
+    "approach": "Developed systems design recommendations for classroom technology integration.",
+    "contribution": "Produced consulting presentation on systems design integration in education.",
+    "technical": "Systems design · education technology · strategic consulting.",
+    "impact": "Shared frameworks for disrupting education through thoughtful systems integration.",
+    "future": "",
+    "links": [
+      { "label": "Open presentation", "href": "https://docs.google.com/presentation/d/15js9pRTkDsCz-0Jb_hHqnNThVMECJJil/edit" }
+    ]
+  },
+  {
+    "id": "sparkade-controller",
+    "featured": false,
+    "title": "Sustainable Unity Game Controller",
+    "summary": "Sustainable game controller and Unity housing game project — explore the full build and documentation.",
+    "image": "img/portfolio/8.jpg",
+    "tags": ["Unity", "Hardware", "Sustainability"],
+    "category": "Project",
+    "external": "https://sites.google.com/view/inayatkang/projects/sparkade/housing-game",
+    "overview": "Sustainable Unity game controller project with accompanying housing game documentation.",
+    "problem": "Consumer electronics and gaming hardware often ignore sustainability in design and materials.",
+    "approach": "Designed and documented a sustainable game controller concept alongside a Unity housing game experience.",
+    "contribution": "Built and documented the project end-to-end.",
+    "technical": "Unity · hardware design · sustainable product thinking.",
+    "impact": "Public project documentation and interactive game experience.",
+    "future": "",
+    "links": [
+      { "label": "View full project", "href": "https://sites.google.com/view/inayatkang/projects/sparkade/housing-game" }
+    ]
+  },
+  {
+    "id": "finger-exoskeleton",
+    "featured": false,
+    "title": "Finger Exoskeleton",
+    "summary": "Biomedical engineering project focused on a finger exoskeleton — full documentation and design process.",
+    "image": "img/portfolio/12.jpg",
+    "tags": ["Biomedical", "Hardware", "Assistive"],
+    "category": "Project",
+    "external": "https://sites.google.com/view/inayatkang/projects/finger-exoskeleton?authuser=0",
+    "overview": "Biomedical engineering project focused on a finger exoskeleton, with full documentation and design process.",
+    "problem": "Assistive hand devices need careful mechanical design to support mobility and rehabilitation use cases.",
+    "approach": "Designed and documented a finger exoskeleton through an engineering design process.",
+    "contribution": "Led design and documentation of the exoskeleton project.",
+    "technical": "Mechanical design · biomedical engineering · assistive hardware.",
+    "impact": "Documented engineering process for an assistive finger exoskeleton.",
+    "future": "",
+    "links": [
+      { "label": "View full project", "href": "https://sites.google.com/view/inayatkang/projects/finger-exoskeleton?authuser=0" }
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "entries": [
+    {
+      "id": "schulich-2025",
+      "date": "2025",
+      "title": "Schulich Leader Scholarship Recipient",
+      "image": "img/news/6.jpg",
+      "description": "Recognized as one of the top 100 STEM students in Canada for leadership, initiative, and building impactful engineering solutions. Awarded $120 000 over 4 years.",
+      "link": "https://give.ubc.ca/news/schulich-leaders-2025/",
+      "linkLabel": "Read more"
+    },
+    {
+      "id": "mcewen-bme",
+      "date": "2025",
+      "title": "McEwen Family Entrance Award in Biomedical Engineering",
+      "image": "img/news/7.jpg",
+      "description": "Awarded $25 000 entrance scholarship for academic achievement, leadership, and entrepreneurial initiative in biomedical engineering.",
+      "link": "",
+      "linkLabel": "Read more"
+    },
+    {
+      "id": "ingenious-drone",
+      "date": "2024",
+      "title": "Ingenious+ Regional Winner — Mind-Controlled Drone",
+      "image": "img/news/5.jpg",
+      "description": "Received a $1,000 grant for a mind-controlled drone project exploring brain-computer interfaces and assistive technology.",
+      "link": "https://ingeniousplus.ca/submission/mind-controlled-drone/",
+      "linkLabel": "Read more"
+    },
+    {
+      "id": "wise-research",
+      "date": "2024",
+      "title": "WISE UCalgary Research Award",
+      "image": "img/news/4.jpg",
+      "description": "One of ten students selected across Calgary — awarded a $1,000 scholarship for summer research on smarter agriculture and IoT crop monitoring.",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7239125709904891905/",
+      "linkLabel": "Read more"
+    },
+    {
+      "id": "inventures-speaker",
+      "date": "2024",
+      "title": "Inventures Canada — Youth in Tech Panel",
+      "image": "img/news/1.jpg",
+      "description": "Shared my STEM journey — from self-stabilizing spoons to brain-controlled keyboards — and how industry can support youth builders.",
+      "link": "https://inventurescanada.com/speakers/?search=inayat",
+      "linkLabel": "Read more"
+    },
+    {
+      "id": "nurture-biotech",
+      "date": "2024",
+      "title": "Nurture Biotech — From App to Company",
+      "image": "img/portfolio/6.jpg",
+      "description": "Grew a Technovation project into Nurture Biotech, supporting mothers with postpartum depression screening while building as co-founder, programmer, and product manager.",
+      "link": "https://www.canva.com/design/DAGXI4SKWlc/Q-r13WtP3uRcce3sbnhlLg/edit?utm_content=DAGXI4SKWlc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "linkLabel": "View mission"
+    },
+    {
+      "id": "ctv-robotics",
+      "date": "2024",
+      "title": "CTV News — FIRST Robotics Feature",
+      "image": "img/news/2.jpg",
+      "description": "Featured for community outreach and STEM education with Sparkans Robotics, representing Calgary at an international competition.",
+      "link": "https://calgary.ctvnews.ca/problem-solving-skills-key-for-calgary-high-school-robotics-team-headed-to-international-competition-1.6748442",
+      "linkLabel": "Read article"
+    },
+    {
+      "id": "10x-founder",
+      "date": "2023",
+      "title": "10x Future Founder Award",
+      "image": "img/news/3.jpg",
+      "description": "Awarded a $1,000 scholarship recognizing passion for tech, innovation, and entrepreneurship within the Calgary tech community.",
+      "link": "https://www.platformcalgary.com/program/10x-future-founders-scholarship",
+      "linkLabel": "Read more"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "schulich",
+    "name": "Prestigious Schulich Leader Award Recipient",
+    "organization": "Schulich Leader Canada",
+    "year": "2025",
+    "description": "Top 100 STEM students in Canada — recognized for leadership, initiative, and building impactful engineering solutions.",
+    "image": "img/news/6.jpg",
+    "links": [
+      { "label": "More information on the award", "href": "https://give.ubc.ca/news/schulich-leaders-2025/" }
+    ]
+  },
+  {
+    "id": "mcewen",
+    "name": "Biomedical Engineering Scholarship Recipient",
+    "organization": "McEwen Family Entrance Award in Biomedical Engineering",
+    "year": "2025",
+    "description": "Awarded entrance scholarship for demonstrating academic achievement, leadership and entrepreneurial initiative in the field of biomedical engineering.",
+    "image": "img/news/7.jpg",
+    "links": []
+  },
+  {
+    "id": "ingenious",
+    "name": "Ingenious+ Regional Winner",
+    "organization": "Ingenious+",
+    "year": "2024",
+    "description": "Received a $1,000 grant for my mind-controlled drone project.",
+    "image": "img/news/5.jpg",
+    "links": [
+      { "label": "More information on the award", "href": "https://ingeniousplus.ca/submission/mind-controlled-drone/" }
+    ]
+  },
+  {
+    "id": "inventures",
+    "name": "Speaker on Youth in Tech",
+    "organization": "Inventures Canada",
+    "year": "2024",
+    "description": "As someone with a deep passion in building projects, I shared my own journey into STEM from building self-stabilizing spoons to brain-controlled keyboards. Shared how companies, CEOs, and other disruptors in tech can support youth growth.",
+    "image": "img/news/1.jpg",
+    "links": [
+      { "label": "Speaker Panel", "href": "https://inventurescanada.com/speakers/?search=inayat" },
+      { "label": "LinkedIn post", "href": "https://www.linkedin.com/posts/inayatkang_last-friday-marked-a-major-personal-achievement-activity-7203262561872474113-WyT6?utm_source=share&utm_medium=member_desktop" }
+    ]
+  },
+  {
+    "id": "wise",
+    "name": "WISE UCalgary Research Award",
+    "organization": "Schulich School of Engineering",
+    "year": "2024",
+    "description": "I was awarded the WISE Research Award, receiving a $1,000 scholarship for my summer research project on smarter agriculture. I am proud to be one of only ten students selected from across Calgary to receive this honor.",
+    "image": "img/news/4.jpg",
+    "links": [
+      { "label": "Read Award Post", "href": "https://www.linkedin.com/posts/inayatkang_the-future-of-farming-isnt-just-about-producing-activity-7239125709904891905-382a?utm_source=share&utm_medium=member_desktop" }
+    ]
+  },
+  {
+    "id": "ctv",
+    "name": "FIRST Robotics Competition Interview",
+    "organization": "CTV News",
+    "year": "2024",
+    "description": "Featured in a CTV News interview and article for my work in community outreach and STEM education as part of the Sparkans Robotics Team, representing Calgary at an international robotics competition.",
+    "image": "img/news/2.jpg",
+    "links": [
+      { "label": "Read the Article", "href": "https://calgary.ctvnews.ca/problem-solving-skills-key-for-calgary-high-school-robotics-team-headed-to-international-competition-1.6748442" }
+    ]
+  },
+  {
+    "id": "10x",
+    "name": "10x Future Founder Award",
+    "organization": "Platform Calgary",
+    "year": "2023",
+    "description": "I was awarded a $1,000 scholarship for the 10X Future Founders Award, recognizing my passion for tech, innovation, and entrepreneurship. This award supports my growth and connection within the Calgary tech community, offering valuable opportunities to engage with industry leaders and expand my knowledge.",
+    "image": "img/news/3.jpg",
+    "links": [
+      { "label": "More information on the award", "href": "https://www.platformcalgary.com/program/10x-future-founders-scholarship" }
+    ]
+  }
+]

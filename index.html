@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Inayat Kang - a personal research journal. Exploring technology, medicine, and human potential." />
+  <meta name="author" content="Inayat Kang" />
+  <meta name="theme-color" content="#03060f" />
+  <title>Inayat Kang - Journal</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div class="field" aria-hidden="true">
+    <div class="field__glow field__glow--1"></div>
+    <div class="field__glow field__glow--2"></div>
+    <div class="field__glow field__glow--3"></div>
+    <canvas id="field-stars"></canvas>
+  </div>
+
+  <p class="hint"> click the right edge to flip pages · or use the side tabs</p>
+
+  <div class="stage">
+    <div class="book-wrap" id="book-wrap">
+      <button type="button" class="page-edge page-edge--prev" id="flip-prev" aria-label="Previous page"></button>
+      <button type="button" class="page-edge page-edge--next" id="flip-next" aria-label="Flip to next page"><span class="page-edge__label">flip →</span></button>
+      <nav class="book-tabs" aria-label="Journal sections">
+        <button type="button" class="book-tab is-active" data-tab="0">Intro</button>
+        <button type="button" class="book-tab" data-tab="1">Now</button>
+        <button type="button" class="book-tab" data-tab="2">Projects</button>
+        <button type="button" class="book-tab" data-tab="3">Experience</button>
+        <button type="button" class="book-tab" data-tab="4">Awards and Features</button>
+        <button type="button" class="book-tab" data-tab="5">Links</button>
+      </nav>
+
+      <div class="book" id="book" aria-live="polite">
+          <!-- PAGE 1: Introduction -->
+          <article class="page" data-density="soft" data-page="0" data-label="Introduction">
+            <div class="page__meta"><span>Journal · 01</span><span>Inayat Kang</span></div>
+            <h1 class="page__title">Hey, I'm Inayat</h1>
+            <p class="page__lead">welcome to my corner of the internet:)</p>
+            <div class="page__body">
+              <div class="intro-hero">
+                <div class="intro-portrait">
+                  <img src="img/about/1.jpg" alt="Portrait of Inayat Kang" />
+                </div>
+                <div class="intro-copy">
+                  <p class="intro-now">Integrated Engineering @ UBC · Schulich Leader · based in Calgary · focused on healthcare tech &amp; robotics</p>
+                  <p>I’m an 18-year-old builder from Calgary passionate about creating positive change through technology and empathy-driven innovation. I believe the future is something we actively create, by imagining what could exist and building the pieces that are missing. </p>
+
+
+
+                   <p> I’m constantly challenging myself to step beyond my comfort zone, learn from new perspectives, and approach problems through a curiosity and creativity lens.  Through robotics, drones, neurotechnology, and intelligent systems, I’m exploring how technology can bridge the gap between engineering and medicine to create more human-centered solutions. </p>
+                    
+                    
+                    
+                     <p>I’m optimistic about the future and working to built it.</p>
+                    
+                    <div class="intro-ctas">
+                    <a class="intro-cta" href="mailto:inayat.kang1@gmail.com">Email me</a>
+                    <a class="intro-cta" href="https://www.linkedin.com/in/inayat-kang-040475255/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills">
+                <p class="section-label">Skills &amp; mindset</p>
+                <div class="skills-grid">
+                  <div class="skills-group">
+                    <h4>Design and CAD</h4>
+                    <div class="chip-row">
+                      <span class="chip chip--alt">Onshape</span>
+                      <span class="chip chip--alt">Fusion 360</span>
+                      <span class="chip chip--alt">SolidWorks</span>
+                      <span class="chip chip--alt">Fritzing</span>
+                      <span class="chip chip--alt">KiCad</span>
+                    </div>
+                  </div>
+                  <div class="skills-group">
+                    <h4>Programming</h4>
+                    <div class="chip-row">
+                      <span class="chip chip--alt">Python</span>
+                      <span class="chip chip--alt">C</span>
+                      <span class="chip chip--alt">R</span>
+                      <span class="chip chip--alt">Java</span>
+                      <span class="chip chip--alt">ROS 2</span>
+                      <span class="chip chip--alt">MATLAB</span>
+                     
+                    </div>
+                  </div>
+                  <div class="skills-group">
+                    <h4>Technologies and tools</h4>
+                    <div class="chip-row">
+                      <span class="chip chip--alt">FDM/ SLS 3D printing</span>
+                      <span class="chip chip--alt">Laser cutting</span>
+                      <span class="chip chip--alt">Arduino + ESP32</span>
+                      <span class="chip chip--alt">Soldering Iron</span>
+                      <span class="chip chip--alt">EEG Sensors</span>
+
+                    
+                    </div>
+                  </div>
+                  <div class="skills-group">
+                    <h4>Lab</h4>
+                    <div class="chip-row">
+                      <span class="chip chip--alt">AGE / PAGE gel electrophoresis</span>
+                      <span class="chip chip--alt">Chromatography / Spectral scans</span>
+                      <span class="chip chip--alt">Pipetting</span>
+                    </div>
+                  </div>
+                  <div class="skills-group skills-group--wide">
+                    <h4>Mindset</h4>
+                    <div class="chip-row">
+                      <span class="chip">Empathy</span>
+                      <span class="chip">First Principles Thinking</span>
+                      <span class="chip">Curiosity</span>
+                     <span class="chip">Growth mindset</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="page__scroll-hint">Scroll for skills ↓</p>
+          </article>
+
+          <!-- PAGE 2: Currently + Reading -->
+          <article class="page" data-density="soft" data-page="1" data-label="Now">
+            <div class="page__meta"><span>Journal · 02</span><span>Currently</span></div>
+            <h1 class="page__title">What I'm exploring now</h1>
+            <p class="page__lead">Building, researching, studying — and one book shaping how I think.</p>
+            <div class="page__body">
+              <div class="orbit-grid">
+                <div class="orbit-stack">
+                  <div class="orbit-card">
+                    <div class="orbit-card__cat">Studying</div>
+                    <h3>Integrated Engineering at UBC</h3>
+                    <p>I like asking questions that don't have obvious answers, and those questions rarely belong to just one field. Integrated Engineering gives me the flexibility to explore them through project-based learning by merging different engineering fields.</p>
+                    <div class="orbit-card__meta"><span class="status">Entering second year</span></div>
+                  </div>
+                  <div class="orbit-card">
+                    <div class="orbit-card__cat">Building</div>
+                    <h3>Remote Operated Surgical Robotic Arm</h3>
+                    <p>Building and programming a robotic surgical arm using customized LeRobot and ESP32 hardware to bring specialized surgical capabilities closer to rural communities.</p>
+                    <div class="orbit-card__meta"><span class="status">Somewhere between “this is going to be amazing” and “why isn’t anything working?”</span></div>
+                  </div>
+                  <div class="orbit-card">
+                    <div class="orbit-card__cat">Researching</div>
+                    <h3>HPV Lateral Flow Assay</h3>
+                    <p>Currently working at the WEBIT lab, designing lateral flow assays with carbon quantum dot fluorescence tech to detect HPV and prevent cervical cancer.</p>
+                    <div class="orbit-card__meta"><span class="status">Wrapping up my 4th month</span></div>
+                  </div>
+                </div>
+                <aside class="reading-tile">
+                  <div>
+                    <div class="reading-tile__label">Currently reading</div>
+                    <div class="reading-tile__cover">
+                      <img src="img/portfolio/17.jpg" alt="Brave New World by Aldous Huxley book cover" loading="lazy" />
+                    </div>
+                    <h3>Brave New World</h3>
+                    <div class="author">Aldous Huxley</div>
+                  </div>
+                  <a href="https://www.goodreads.com/" target="_blank" rel="noopener noreferrer">View Goodreads →</a>
+                </aside>
+              </div>
+            </div>
+          </article>
+
+          <!-- PAGE 3: Projects + Articles + Publications -->
+          <article class="page" data-density="soft" data-page="2" data-label="Projects">
+            <div class="page__meta"><span>Journal · 03</span><span>Archive</span></div>
+            <h1 class="page__title">Projects &amp; Writing</h1>
+            <p class="page__lead">Builds, research, articles, and publications .</p>
+            <div class="page__body">
+              <p class="section-label">Projects</p>
+              <div class="entry-list">
+                <a class="entry" href="projects/finger-flexion-glove.html">
+                  <div class="entry__thumb"><img src="img/portfolio/16.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Project · Hardware</div>
+                    <h3>Finger Flexion Glove</h3>
+                    <p>Hardware module for Muscle to Movement at UBC that measures finger flexion angles to gamify at-home rehab for patients with multiple sclerosis.</p>
+                    <span class="entry__cta">Open case study →</span>
+                  </div>
+                </a>
+                <a class="entry" href="projects/brain-controlled-keyboard.html">
+                  <div class="entry__thumb"><img src="img/portfolio/1.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Project · BCI</div>
+                    <h3>Brain Controlled Keyboard</h3>
+                    <p>Using the Muse headset, a meditation band, I extracted brainwaves and used them to identify changes in delta wave values to detect blinks and control certain commands on my keyboard.</p>
+                    <span class="entry__cta">Open case study →</span>
+                  </div>
+                </a>
+                <a class="entry" href="projects/drones-smarter-farming.html">
+                  <div class="entry__thumb"><img src="img/portfolio/2.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Research · Project</div>
+                    <h3>Drones for Smarter Farming</h3>
+                    <p>This project focuses on creating data-driven farming, putting sensor data, irrigation recommendations, rain probability, and insights into crop health right into the hands of farmers.</p>
+                    <span class="entry__cta">Open case study →</span>
+                  </div>
+                </a>
+                <a class="entry" href="projects/crustex-microplastics.html">
+                  <div class="entry__thumb"><img src="img/portfolio/3.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Research</div>
+                    <h3>Solving the Microplastic Crisis</h3>
+                    <p>Hackathon project where my group and I developed Crustex, a sustainable solution to the rising numbers of microplastics found in synthetic clothing.</p>
+                    <span class="entry__cta">Open case study →</span>
+                  </div>
+                </a>
+                <a class="entry" href="projects/nurture-app.html">
+                  <div class="entry__thumb"><img src="img/portfolio/6.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Project · Healthtech</div>
+                    <h3>Nurture App</h3>
+                    <p>Developed an app through Technovation girls to help new mother identify post partum depression to gain proper healthcare support while acting as data base for medical professionals.</p>
+                    <span class="entry__cta">Open case study →</span>
+                  </div>
+                </a>
+                <a class="entry" href="projects/google-ads-consulting.html">
+                  <div class="entry__thumb"><img src="img/portfolio/4.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Consulting</div>
+                    <h3>Guiding businesses to optimize their usage of Google Ads</h3>
+                    <p>Consulting work helping businesses optimize their Google Ads strategy and performance.</p>
+                    <span class="entry__cta">Open case study →</span>
+                  </div>
+                </a>
+                <a class="entry" href="projects/wef-education-systems.html">
+                  <div class="entry__thumb"><img src="img/portfolio/5.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Consulting</div>
+                    <h3>Systems Design Integration in Classrooms to Disrupt Education</h3>
+                    <p>Systems design consulting on integrating technology and design thinking into classroom environments.</p>
+                    <span class="entry__cta">Open case study →</span>
+                  </div>
+                </a>
+                <a class="entry" href="projects/sparkade-controller.html">
+                  <div class="entry__thumb"><img src="img/portfolio/8.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Project</div>
+                    <h3>Sustainable Unity Game Controller</h3>
+                    <p>Sustainable game controller and Unity housing game project — explore the full build and documentation.</p>
+                    <span class="entry__cta">Open case study →</span>
+                  </div>
+                </a>
+                <a class="entry" href="projects/finger-exoskeleton.html">
+                  <div class="entry__thumb"><img src="img/portfolio/12.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Project · Biomedical</div>
+                    <h3>Finger Exoskeleton</h3>
+                    <p>Biomedical engineering project focused on a finger exoskeleton — full documentation and design process.</p>
+                    <span class="entry__cta">Open case study →</span>
+                  </div>
+                </a>
+              </div>
+
+              <p class="section-label">Articles &amp; publications</p>
+              <div class="entry-list entry-list--pubs">
+                <a class="entry" href="https://medium.com/@inayat.kang1/tapping-into-the-brain-to-control-a-keyboard-b2d206827a04" target="_blank" rel="noopener noreferrer">
+                  <div class="entry__thumb"><img src="img/portfolio/1.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Medium · Technical writing</div>
+                    <h3>Tapping into the Brain to Control a Keyboard</h3>
+                    <p>Project research on extracting Muse headset brainwaves to detect blinks and control keyboard commands for accessibility.</p>
+                    <span class="entry__cta">Read →</span>
+                  </div>
+                </a>
+                <a class="entry" href="https://medium.com/@inayat.kang1/the-new-direction-for-farming-how-im-making-it-smarter-87120671ee98" target="_blank" rel="noopener noreferrer">
+                  <div class="entry__thumb"><img src="img/portfolio/2.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Medium · Article</div>
+                    <h3>The New Direction for Farming — How I'm Making It Smarter</h3>
+                    <p>Research write-up on data-driven farming, IoT crop monitoring, and the WISE research symposium presentation.</p>
+                    <span class="entry__cta">Read →</span>
+                  </div>
+                </a>
+                <a class="entry" href="https://medium.com/@inayat.kang1/solving-the-microplastic-crisis-using-biosynthetic-textiles-ee7470563414" target="_blank" rel="noopener noreferrer">
+                  <div class="entry__thumb"><img src="img/portfolio/3.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Medium · Article</div>
+                    <h3>Solving the Microplastic Crisis Using Biosynthetic Textiles</h3>
+                    <p>Research on Crustex and biosynthetic approaches to microplastic pollution from synthetic clothing.</p>
+                    <span class="entry__cta">Read →</span>
+                  </div>
+                </a>
+                <a class="entry" href="https://medium.com/@inayat.kang1/humanitys-newest-superpower-bci-s-7bc46681f006" target="_blank" rel="noopener noreferrer">
+                  <div class="entry__thumb"><img src="img/portfolio/9.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Medium · Article</div>
+                    <h3>Humanity's Newest Superpower: BCI's</h3>
+                    <p>Research writing on brain-computer interfaces and their potential as assistive and transformative technology.</p>
+                    <span class="entry__cta">Read →</span>
+                  </div>
+                </a>
+                <a class="entry" href="https://substack.com/home/post/p-143061762" target="_blank" rel="noopener noreferrer">
+                  <div class="entry__thumb"><img src="img/portfolio/7.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Substack</div>
+                    <h3>Researching Vascular Diseases at VAST Platform UofC</h3>
+                    <p>Reflection on researching vascular diseases and neuroimaging at the VAST Platform, University of Calgary.</p>
+                    <span class="entry__cta">Read →</span>
+                  </div>
+                </a>
+                <a class="entry" href="https://inayatkang.substack.com/p/november-exposed-to-new-skills-fields" target="_blank" rel="noopener noreferrer">
+                  <div class="entry__thumb"><img src="img/portfolio/11.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Newsletter</div>
+                    <h3>Exposed to New Skills, Fields and Mindsets</h3>
+                    <p>Personal newsletter reflecting on new skills, fields, and mindsets encountered along the journey.</p>
+                    <span class="entry__cta">Read →</span>
+                  </div>
+                </a>
+                <a class="entry" href="https://substack.com/home/post/p-140435741" target="_blank" rel="noopener noreferrer">
+                  <div class="entry__thumb"><img src="img/portfolio/10.jpg" alt="" loading="lazy" /></div>
+                  <div class="entry__content">
+                    <div class="entry__type">Newsletter</div>
+                    <h3>Researching, Designing, and Creating</h3>
+                    <p>Newsletter on researching, designing, and creating — documenting the process behind the work.</p>
+                    <span class="entry__cta">Read →</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="page__scroll-hint">Scroll inside the page for more ↓</p>
+          </article>
+
+          <!-- PAGE 4: Experiences -->
+          <article class="page" data-density="soft" data-page="3" data-label="Experience">
+            <div class="page__meta"><span>Journal · 04</span><span>Chapters</span></div>
+            <h1 class="page__title">Past experiences</h1>
+            <p class="page__lead">Roles, teams, and places that shaped the work.</p>
+            <div class="page__body">
+              <div class="exp-item">
+                <h3>Outreach Team Lead · Programming &amp; Mechanical</h3>
+                <div class="org">FIRST Robotics</div>
+                <p class="summary">9277 Outreach Team Lead and programming and mechanical team member.</p>
+                <details>
+                  <summary>Read more</summary>
+                  <ul>
+                    <li>Founding member of FIRST Robotics Team 9277; served as Design Lead and later led outreach across school robotics teams.</li>
+                    <li>Contributed to mechanical builds, code development, and strategic planning.</li>
+                    <li>Spearheaded initiatives to grow STEM awareness in the community.</li>
+                    <li>Lead programmer and mentor for FRC Team 10384.</li>
+                    <li>Featured in CTV News for community outreach and STEM education with Sparkans Robotics.</li>
+                  </ul>
+                </details>
+              </div>
+              <div class="exp-item">
+                <h3>Debater</h3>
+                <div class="org">ADSA</div>
+                <p class="summary">Ranked Top 10 in Calgary 2024</p>
+                <details>
+                  <summary>Read more</summary>
+                  <ul>
+                    <li>Joined school debate team in 2023 — a major shift from STEM-focused activities.</li>
+                    <li>Ranked in the top 10 in Calgary and advanced to the provincial level.</li>
+                    <li>Strengthened communication skills that transfer into STEM leadership and presentation.</li>
+                  </ul>
+                </details>
+              </div>
+              <div class="exp-item">
+                <h3>Drone Designer</h3>
+                <div class="org">University of Calgary · Intelligent Dynamics Control Lab</div>
+                <p class="summary">Worked with the Intelligent Dynamics Control Lab to create an efficient method for crop monitoring using IoT drone systems.</p>
+                <details>
+                  <summary>Read more</summary>
+                  <ul>
+                    <li>Developed a real-time crop monitoring drone system integrating IoT sensors.</li>
+                    <li>Tracked environmental data such as temperature, humidity, and light levels.</li>
+                    <li>WISE STEM Award recipient; presented at WISE Research Symposium.</li>
+                  </ul>
+                </details>
+              </div>
+              <div class="exp-item">
+                <h3>Researcher</h3>
+                <div class="org">Vascular Training Platform (VAST) · University of Calgary</div>
+                <p class="summary">Researched Vascular Diseases and neuroimaging techniques at VAST Platform UofC.</p>
+                <details>
+                  <summary>Read more</summary>
+                  <ul>
+                    <li>Applied advanced neuroimaging techniques including MRI and Transcranial Doppler Ultrasound.</li>
+                    <li>Engaged in cognitive assessments related to lifestyle factors and dementia prevention.</li>
+                    <li>Built foundational expertise for future innovations in medical science.</li>
+                  </ul>
+                </details>
+              </div>
+              <div class="exp-item">
+                <h3>Youth Advisor</h3>
+                <div class="org">Government of Alberta</div>
+                <p class="summary">Represented 1000+ students in Alberta to work closely with the Minister of Education and fellow council members to address key issues in our education system.</p>
+                <details>
+                  <summary>Read more</summary>
+                  <ul>
+                    <li>One of 40 students selected province-wide to provide youth perspectives on provincial education.</li>
+                    <li>Focused on enhancing the COVID reentry plan for students, particularly K-6.</li>
+                    <li>Proposed a transition period dedicated to reading and math while leveraging STEAM courses.</li>
+                  </ul>
+                </details>
+              </div>
+              <div class="exp-item">
+                <h3>Apprentice</h3>
+                <div class="org">Creative Destruction Lab</div>
+                <p class="summary">Shadowed Vincent Chaley, invenstor in prime energy, meeting with startup businesses and gaining insights into entrepreneurship and innovation.</p>
+                <details>
+                  <summary>Read more</summary>
+                  <ul>
+                    <li>Attended the 4th seminar of CDL Rockies (April 2023).</li>
+                    <li>Shadowed Vincent Chaley at the intersection of commerce and agriculture.</li>
+                    <li>Enhanced public speaking by presenting ideas to mentors and expanded professional network.</li>
+                  </ul>
+                </details>
+              </div>
+            </div>
+          </article>
+
+          <!-- PAGE 5: Awards -->
+          <article class="page" data-density="soft" data-page="4" data-label="Awards">
+            <div class="page__meta"><span>Journal · 05</span><span>Recognition</span></div>
+            <h1 class="page__title">Awards &amp; features</h1>
+            <p class="page__lead">Scholarships, research honors, media, and speaking.</p>
+            <div class="page__body">
+              <div class="award-grid">
+                <article class="award">
+                  <div class="award__media"><img src="img/news/6.jpg" alt="" loading="lazy" /></div>
+                  <div class="award__body">
+                    <div class="award__year">2025 · Schulich Leader Canada</div>
+                    <h3>Prestigious Schulich Leader Award Recipient</h3>
+                    <p>Top 100 STEM students in Canada — recognized for leadership, initiative, and building impactful engineering solutions.</p>
+                    <a class="award__link" href="https://give.ubc.ca/news/schulich-leaders-2025/" target="_blank" rel="noopener noreferrer">More information →</a>
+                  </div>
+                </article>
+                <article class="award">
+                  <div class="award__media"><img src="img/news/7.jpg" alt="" loading="lazy" /></div>
+                  <div class="award__body">
+                    <div class="award__year">2025 · McEwen Family Entrance Award</div>
+                    <h3>Biomedical Engineering Scholarship Recipient</h3>
+                    <p>Awarded entrance scholarship for demonstrating academic achievement, leadership and entrepreneurial initiative in biomedical engineering.</p>
+                  </div>
+                </article>
+                <article class="award">
+                  <div class="award__media"><img src="img/news/5.jpg" alt="" loading="lazy" /></div>
+                  <div class="award__body">
+                    <div class="award__year">2024 · Ingenious+</div>
+                    <h3>Ingenious+ Regional Winner</h3>
+                    <p>Received a $1,000 grant for my mind-controlled drone project.</p>
+                    <a class="award__link" href="https://ingeniousplus.ca/submission/mind-controlled-drone/" target="_blank" rel="noopener noreferrer">More information →</a>
+                  </div>
+                </article>
+                <article class="award">
+                  <div class="award__media"><img src="img/news/1.jpg" alt="" loading="lazy" /></div>
+                  <div class="award__body">
+                    <div class="award__year">2024 · Inventures Canada</div>
+                    <h3>Speaker on Youth in Tech</h3>
+                    <p>Shared my STEM journey from self-stabilizing spoons to brain-controlled keyboards, and how industry can support youth growth.</p>
+                    <a class="award__link" href="https://inventurescanada.com/speakers/?search=inayat" target="_blank" rel="noopener noreferrer">Speaker panel →</a>
+                  </div>
+                </article>
+                <article class="award">
+                  <div class="award__media"><img src="img/news/4.jpg" alt="" loading="lazy" /></div>
+                  <div class="award__body">
+                    <div class="award__year">2024 · Schulich School of Engineering</div>
+                    <h3>WISE UCalgary Research Award</h3>
+                    <p>One of only ten students selected from across Calgary — $1,000 scholarship for summer research on smarter agriculture.</p>
+                    <a class="award__link" href="https://www.linkedin.com/posts/inayatkang_the-future-of-farming-isnt-just-about-producing-activity-7239125709904891905-382a?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">Read award post →</a>
+                  </div>
+                </article>
+                <article class="award">
+                  <div class="award__media"><img src="img/news/2.jpg" alt="" loading="lazy" /></div>
+                  <div class="award__body">
+                    <div class="award__year">2024 · CTV News</div>
+                    <h3>FIRST Robotics Competition Interview</h3>
+                    <p>Featured for community outreach and STEM education with Sparkans Robotics at an international competition.</p>
+                    <a class="award__link" href="https://calgary.ctvnews.ca/problem-solving-skills-key-for-calgary-high-school-robotics-team-headed-to-international-competition-1.6748442" target="_blank" rel="noopener noreferrer">Read the article →</a>
+                  </div>
+                </article>
+                <article class="award">
+                  <div class="award__media"><img src="img/news/3.jpg" alt="" loading="lazy" /></div>
+                  <div class="award__body">
+                    <div class="award__year">2023 · Platform Calgary</div>
+                    <h3>10x Future Founder Award</h3>
+                    <p>$1,000 scholarship recognizing passion for tech, innovation, and entrepreneurship within the Calgary tech community.</p>
+                    <a class="award__link" href="https://www.platformcalgary.com/program/10x-future-founders-scholarship" target="_blank" rel="noopener noreferrer">More information →</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </article>
+
+          <!-- PAGE 6: Links -->
+          <article class="page" data-density="soft" data-page="5" data-label="Links">
+            <div class="page__meta"><span>Journal · 06</span><span>Elsewhere</span></div>
+            <h1 class="page__title">Find me out there</h1>
+            <p class="page__lead">A few doors into the rest of the journey.</p>
+            <div class="page__body">
+              <div class="links-grid">
+                <a class="link-card" href="https://x.com/KangInayat" target="_blank" rel="noopener noreferrer">
+                  <div>
+                    <div class="link-card__name">Twitter / X</div>
+                    <p class="link-card__hint">Short notes, builds, and signals from the lab.</p>
+                  </div>
+                  <span class="link-card__go">Open →</span>
+                </a>
+                <a class="link-card" href="https://github.com/Fyrebolt700" target="_blank" rel="noopener noreferrer">
+                  <div>
+                    <div class="link-card__name">GitHub</div>
+                    <p class="link-card__hint">Code, experiments, and project repositories.</p>
+                  </div>
+                  <span class="link-card__go">Open →</span>
+                </a>
+                <a class="link-card" href="https://inayatkang.substack.com/" target="_blank" rel="noopener noreferrer">
+                  <div>
+                    <div class="link-card__name">Substack</div>
+                    <p class="link-card__hint">Longer reflections on research, design, and learning.</p>
+                  </div>
+                  <span class="link-card__go">Open →</span>
+                </a>
+                <a class="link-card" href="https://www.linkedin.com/in/inayat-kang-040475255/" target="_blank" rel="noopener noreferrer">
+                  <div>
+                    <div class="link-card__name">LinkedIn</div>
+                    <p class="link-card__hint">Professional updates and collaborations.</p>
+                  </div>
+                  <span class="link-card__go">Open →</span>
+                </a>
+                <a class="link-card" href="mailto:inayat.kang1@gmail.com">
+                  <div>
+                    <div class="link-card__name">Email</div>
+                    <p class="link-card__hint">inayat.kang1@gmail.com — say hello.</p>
+                  </div>
+                  <span class="link-card__go">Write →</span>
+                </a>
+                <a class="link-card" href="https://www.goodreads.com/" target="_blank" rel="noopener noreferrer">
+                  <div>
+                    <div class="link-card__name">Goodreads</div>
+                    <p class="link-card__hint">The wider reading shelf behind the journal.</p>
+                  </div>
+                  <span class="link-card__go">Open →</span>
+                </a>
+              </div>
+            </div>
+          </article>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

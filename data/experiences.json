@@ -1,0 +1,93 @@
+[
+  {
+    "id": "first-robotics",
+    "role": "Outreach Team Lead · Programming & Mechanical",
+    "organization": "FIRST Robotics",
+    "summary": "9277 Outreach Team Lead and programming and mechanical team member.",
+    "image": "img/service/1.jpg",
+    "responsibilities": [
+      "Founding member of FIRST Robotics Team 9277; served as Design Lead and later led outreach across school robotics teams.",
+      "Contributed to mechanical builds, code development, and strategic planning.",
+      "Spearheaded initiatives to grow STEM awareness in the community."
+    ],
+    "achievements": [
+      "Lead programmer and mentor for FRC Team 10384 — technical development and mentoring younger members in programming and robotics principles.",
+      "Featured in CTV News for community outreach and STEM education with Sparkans Robotics at an international competition."
+    ]
+  },
+  {
+    "id": "adsa-debater",
+    "role": "Debater",
+    "organization": "ADSA",
+    "summary": "Ranked Top 10 in Calgary 2024",
+    "image": "img/service/2.jpg",
+    "responsibilities": [
+      "Joined school debate team in 2023 — a major shift from STEM-focused activities.",
+      "Trained consistently to improve argumentation, clarity, and presence."
+    ],
+    "achievements": [
+      "Ranked in the top 10 in Calgary and advanced to the provincial level.",
+      "Strengthened communication skills that transfer directly into STEM leadership and presentation."
+    ]
+  },
+  {
+    "id": "drone-designer",
+    "role": "Drone Designer",
+    "organization": "University of Calgary · Intelligent Dynamics Control Lab",
+    "summary": "Worked with the Intelligent Dynamics Control Lab to create an efficient method for crop monitoring using IoT drone systems.",
+    "image": "img/service/3.jpg",
+    "responsibilities": [
+      "Developed a real-time crop monitoring drone system integrating IoT sensors.",
+      "Tracked environmental data such as temperature, humidity, and light levels.",
+      "Collaborated with a multidisciplinary team on sensor integration and data analysis."
+    ],
+    "achievements": [
+      "Contributed to a low-cost solution enhancing agricultural efficiency while minimizing fieldwork.",
+      "WISE STEM Award recipient; presented at WISE Research Symposium."
+    ]
+  },
+  {
+    "id": "vast-researcher",
+    "role": "Researcher",
+    "organization": "Vascular Training Platform (VAST) · University of Calgary",
+    "summary": "Researched Vascular Diseases and neuroimaging techniques at VAST Platform UofC.",
+    "image": "img/service/4.jpg",
+    "responsibilities": [
+      "Applied advanced neuroimaging techniques including MRI and Transcranial Doppler Ultrasound.",
+      "Assessed and analyzed cerebral health with leading experts.",
+      "Engaged in cognitive assessments related to lifestyle factors and dementia prevention."
+    ],
+    "achievements": [
+      "Built foundational expertise for future innovations in medical science and neuroimaging applications."
+    ]
+  },
+  {
+    "id": "youth-advisor",
+    "role": "Youth Advisor",
+    "organization": "Government of Alberta",
+    "summary": "Represented 1000+ students in Alberta to work closely with the Minister of Education and fellow council members to address key issues in our education system.",
+    "image": "img/service/5.jpg",
+    "responsibilities": [
+      "One of 40 students selected province-wide to provide youth perspectives on provincial education.",
+      "Focused on enhancing the COVID reentry plan for students, particularly K-6."
+    ],
+    "achievements": [
+      "Proposed a transition period dedicated to reading and math while leveraging STEAM courses to strengthen skills impacted by educational isolation."
+    ]
+  },
+  {
+    "id": "cdl-apprentice",
+    "role": "Apprentice",
+    "organization": "Creative Destruction Lab",
+    "summary": "Shadowed Vincent Chaley, invenstor in prime energy, meeting with startup businesses and gaining insights into entrepreneurship and innovation.",
+    "image": "img/service/6.jpg",
+    "responsibilities": [
+      "Attended the 4th seminar of CDL Rockies (April 2023) where startups presented products and development plans to mentors and sponsors.",
+      "Shadowed Vincent Chaley at the intersection of commerce and agriculture."
+    ],
+    "achievements": [
+      "Enhanced public speaking by presenting ideas to mentors.",
+      "Gained business-sector knowledge and expanded professional network around leading technologies."
+    ]
+  }
+]

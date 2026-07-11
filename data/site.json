@@ -1,0 +1,30 @@
+{
+  "name": "Inayat Kang",
+  "tagline": "Exploring the intersection of technology, medicine, and human potential.",
+  "roles": ["Developer", "Founder", "Researcher"],
+  "location": "Calgary",
+  "email": "inayat.kang1@gmail.com",
+  "social": {
+    "twitter": "https://x.com/KangInayat",
+    "linkedin": "https://www.linkedin.com/in/inayat-kang-040475255/",
+    "substack": "https://inayatkang.substack.com/",
+    "goodreads": "https://www.goodreads.com/"
+  },
+  "about": [
+    "I'm an 18-year-old from Calgary with an ambition to create positive change in the world through empathy-based innovations.",
+    "I appreciate perspective in life to overcome adversity and approach opportunties with a creative lens. I embody a growth mindset where I am constantly challenging myself to go beyond my comfort zone and expand my knowledge. I'm working towards making a difference in the world by bridging technology and medicine, aiming to improve global healthcare standards around the world. This pursuit has allowed me to adopt an empathy-focused mindset and build projects that center on the user's needs. I'm optimistic about the future and passionate about helping build it!"
+  ],
+  "values": ["Growth Mindset", "Empathy", "Adaptability", "Life Long Curiosity", "Tenacity", "Gratitude"],
+  "skills": ["Fusion 360", "Solidworks", "Unity", "Python", "Figma", "C", "MATLAB", "Simulink"],
+  "portrait": "img/about/1.jpg",
+  "organizations": [
+    { "name": "Google", "url": "https://about.google/", "logo": "img/partners/1.png" },
+    { "name": "World Economic Forum", "url": "https://www.weforum.org/", "logo": "img/partners/2.png" },
+    { "name": "Government of Alberta", "url": "https://www.alberta.ca/student-engagement", "logo": "img/partners/3.png" },
+    { "name": "TKS", "url": "https://www.tks.world/", "logo": "img/partners/4.png" },
+    { "name": "University of Calgary", "url": "https://www.ucalgary.ca/", "logo": "img/partners/5.png" },
+    { "name": "Wearable and Biointegrated Technologies Lab", "url": "https://researchdirectory.ucalgary.ca/wearable-biointegrated-technologies"},
+    { "name": "Intelligent Dynamics Control Lab", "url": "https://intelligentdynamicscontrollab.dreamhosters.com/", "logo": "img/partners/6.png" },
+    { "name": "VAST Training", "url": "https://www.vast-training.org/", "logo": "img/partners/7.png" }
+  ]
+}

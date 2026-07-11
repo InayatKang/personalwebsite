@@ -1,0 +1,29 @@
+{
+  "goodreads": "https://www.goodreads.com/",
+  "books": [
+    {
+      "title": "Brave New World",
+      "author": "Clayton M. Christensen",
+      "cover": "https://covers.openlibrary.org/b/isbn/9780062060242-L.jpg",
+      "note": "Helps me think about how emerging technologies disrupt established systems — especially relevant when building at the edge of healthcare and robotics."
+    },
+    {
+      "title": "Farenheight 451",
+      "author": "Aarron Walter",
+      "cover": "https://covers.openlibrary.org/b/isbn/9781937557003-L.jpg",
+      "note": "Reinforces why empathy belongs at the center of product design — from assistive tech to maternal health tools."
+    },
+    {
+      "title": "Zero to One",
+      "author": "Bessel van der Kolk",
+      "cover": "https://covers.openlibrary.org/b/isbn/9780143127741-L.jpg",
+      "note": "Deepens my understanding of human systems and care — grounding biomedical and BCI work in real human experience."
+    },
+    {
+      "title": "Crime and Punishment",
+      "author": "Peter Thiel",
+      "cover": "https://covers.openlibrary.org/b/isbn/9780804139298-L.jpg",
+      "note": "Shapes how I approach founding and building — looking for non-obvious problems worth solving, not just incremental improvements."
+    }
+  ]
+}

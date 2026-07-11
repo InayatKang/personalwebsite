@@ -1,0 +1,37 @@
+{
+  "updated": "2026-07-09",
+  "items": [
+    {
+      "category": "Building",
+      "title": "Remote Operated Surgical Robotic Arm ",
+      "description": "Exploring the future of remote healthcare by building a robotic surgical arm using customized LeRobot and ESP32 hardware, aiming to bring specialized surgical capabilities closer to rural communities..",
+      "status": "Somewhere between waking up excited to work on it to realizing I have no idea what I'm doing",
+      "updated": "2026-07-09",
+      "link": ""
+    },
+    {
+      "category": "Researching",
+      "title": "HPV Lateral Flow Assay",
+      "description": "Currently working at the WEBIT lab, desigining latera flow assays with carbon quantam dot fluoresence tech to detect HPV and prevent cervial cancer.  ",
+      "status": "Active",
+      "updated": "2026-07-09",
+      "link": "https://medium.com/@inayat.kang1/humanitys-newest-superpower-bci-s-7bc46681f006"
+    },
+    {
+      "category": "Studying",
+      "title": "Integrated Engineering at UBC",
+      "description": "I like asking questions that don't have obvious answers, and those questions rarely belong to just one field. Integrated Engineering gives me the flexibility to explore them through design, prototyping, and hands-on engineering. ",
+      "status": "Active",
+      "updated": "2026-07-09",
+      "link": ""
+    },
+    {
+      "category": "Reading",
+      "title": "Brave New World",
+     "description": "Reading across entrepreneurship, systems thinking, and human impact — tracking books that influence how I build and explore.",
+      "status": "Active",
+      "updated": "2026-07-09",
+      "link": "#reading"
+    }
+  ]
+}

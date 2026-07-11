@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#03060f" />
+  <title>Finger Flexion Glove - Inayat Kang</title>
+  <link rel="icon" href="../img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body class="project-view">
+  <div class="field" aria-hidden="true">
+    <div class="field__glow field__glow--1"></div>
+    <div class="field__glow field__glow--2"></div>
+  </div>
+  <div class="stage-simple">
+    <a class="back" href="../index.html">← Back to journal</a>
+    <article class="sheet">
+      <div class="tags"><span class="chip">Hardware</span><span class="chip">Rehab</span><span class="chip">Biomedical</span></div>
+      <h1>Finger Flexion Glove</h1>
+      <p>Hardware module for Muscle to Movement at UBC that measures finger flexion angles to gamify at-home rehab for patients with multiple sclerosis.</p>
+
+      <h2>Overview</h2>
+      <p>One of the first projects I got involved with was through Muscle to Movement at UBC as a hardware engineer. I worked on gamifying rehabilitation for patients with multiple sclerosis, and replacing in-person physiotherapist sessions with guided module activities patients can do independently at home.</p>
+      <p>I focused on creating a module to measure finger flexion angles, adopting the techniques physiotherapists use to isolate PIP and DIP joint movements.</p>
+      <div class="media media--contain"><img src="../img/portfolio/15.jpg" alt="Finger anatomy diagram labeling DIP and PIP joints and phalanges" loading="lazy" /></div>
+
+      <h2>From camera tracking to hardware</h2>
+      <p>First, I played around with motion tracking using MediaPipe Pose. You can try it below — turn on the camera, select the finger and PIP/DIP/MCP joint, and the dashboard shows the flexion angle.</p>
+      <div class="links links--inline">
+        <a class="btn" href="https://fingerflexiontracking.vercel.app/?_vercel_share=y3ZOx1nCfrEV8MbTTMvQuIlpIpz2adho" target="_blank" rel="noopener noreferrer">Try Finger Joint Tracking</a>
+      </div>
+      <p>That approach lacked accuracy and depth with a single camera, so I shifted to a physical prototype using flex sensors. Off-the-shelf flex sensors are too long to place on both joints without overlapping, so I created smaller versions tailored to each joint.</p>
+      <div class="media"><img src="../img/portfolio/16.jpg" alt="Custom flex-sensor glove prototype, dorsal and palm views" loading="lazy" /></div>
+      <div class="media media--contain">
+        <video src="../img/portfolio/1.mp4" controls playsinline preload="metadata" title="Custom-made flex sensor readings when bent"></video>
+      </div>
+      <p class="media-caption">Custom-made flex sensor readings when bent</p>
+
+      <h2>Technical details</h2>
+      <p>ESP32 · Arduino Uno · Arduino IDE programming in C · custom flex sensors (learning how resistive flex sensing works to size and build my own).</p>
+
+      <h2>What's next</h2>
+      <p>With prototype one complete, I'll continue working on new adaptations in the coming semester.</p>
+
+      <div class="links">
+        <a class="btn" href="https://fingerflexiontracking.vercel.app/?_vercel_share=y3ZOx1nCfrEV8MbTTMvQuIlpIpz2adho" target="_blank" rel="noopener noreferrer">Try Finger Joint Tracking</a>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
