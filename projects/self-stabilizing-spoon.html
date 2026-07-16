@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#03060f" />
+  <title>Self-Stabilizing Spoon - Inayat Kang</title>
+  <link rel="icon" href="../img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body class="project-view">
+  <div class="field" aria-hidden="true">
+    <div class="field__glow field__glow--1"></div>
+    <div class="field__glow field__glow--2"></div>
+  </div>
+  <div class="stage-simple">
+    <a class="back" href="../index.html#projects">&larr; Back to journal</a>
+    <article class="sheet">
+      <div class="tags"><span class="chip">Hardware</span><span class="chip">Assistive</span><span class="chip">Biomedical</span></div>
+      <h1>Self-Stabilizing Spork</h1>
+      <p>One of my first projects: an adaptive spork for people with Parkinson's who experience hand tremors, built with a Circuit Playground, servo motors, and a 3D-designed spoon attachment.</p>
+
+      <h2>Overview</h2>
+      <p>One of my first projects that made me fall in love with the design process and building. I developed a self-stabilizing spork that counters hand tremors so the utensil stays more level while eating. The system uses gyroscope data from a Circuit Playground to control the rotation of servo motors attached to a custon made 3D-printed spork.</p>
+
+      <h2>Design</h2>
+      <p>The early design sketch used a two-joint method so the spoon could move on both axes, with the Circuit Playground and battery placed nearer the wrist to keep weight from interfering with use.</p>
+      <div class="media media--contain"><img src="../img/portfolio/spoon/design-sketch.png" alt="Final design sketch of the adaptive self-stabilizing spoon with labeled Circuit Playground, battery case, and two-joint mechanism" loading="lazy" /></div>
+      <p class="media-caption">First prototype design sketch</p>
+
+      <h2>Prototype</h2>
+      <p>I built a working mock prototype with servo motors, the Circuit Playground, and a 3D-printed spoon attachment.</p>
+      <div class="media"><img src="../img/portfolio/spoon/prototype.png" alt="Self-stabilizing spoon prototype with Circuit Playground, servos, and 3D-printed spoon" loading="lazy" /></div>
+      <div class="media"><img src="../img/portfolio/spoon/prototype-held.png" alt="Holding the self-stabilizing spoon prototype" loading="lazy" /></div>
+
+      <h2>Code</h2>
+      <p>Python on the Circuit Playground reads accelerometer and gyroscope data, smooths the readings, and maps them to servo angles so the motors keep the spork upright as the wrist moves.</p>
+      <div class="media media--contain"><img src="../img/portfolio/spoon/code.png" alt="Python code using Circuit Playground gyroscope data to control servo motors" loading="lazy" /></div>
+      <p class="media-caption">CircuitPython code controlling servo rotation from sensor data</p>
+
+      <h2>Technical details</h2>
+      <p>Adafruit Circuit Playground Express &middot; servo motors &middot; 3D-designed spork attachment &middot; CircuitPython &middot; gyroscope / accelerometer stabilization.</p>
+    </article>
+  </div>
+</body>
+</html>

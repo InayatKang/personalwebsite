@@ -40,6 +40,27 @@
     ]
   },
   {
+    "id": "brain-controlled-drone",
+    "featured": true,
+    "title": "Brain Controlled Drone",
+    "summary": "Mock prototype using Muse headset beta waves to detect concentration and control a Tello drone like a joystick. Ingenious+ Regional Winner.",
+    "image": "img/news/5.jpg",
+    "tags": ["BCI", "Robotics", "Hardware"],
+    "category": "Project",
+    "video": "https://www.youtube.com/embed/XcNma191Wmk",
+    "overview": "I used beta wave frequencies from a Muse headset to detect concentration levels, then programmed those signals as joystick inputs for a Tello drone. This mock prototype explores hands-free drone control through focus.\n\nThe project received a $1,000 grant as an Ingenious+ Regional Winner.",
+    "problem": "",
+    "approach": "",
+    "contribution": "",
+    "technical": "Muse headset EEG · beta wave concentration detection · Tello drone · joystick mapping · mock prototype.",
+    "impact": "Ingenious+ Regional Winner — $1,000 grant for the mind-controlled drone project.",
+    "future": "",
+    "links": [
+      { "label": "Watch the demo video", "href": "https://www.youtube.com/watch?v=XcNma191Wmk" },
+      { "label": "Learn more on Ingenious+", "href": "https://ingeniousplus.ca/submission/mind-controlled-drone/" }
+    ]
+  },
+  {
     "id": "drones-smarter-farming",
     "featured": true,
     "title": "Drones for Smarter Farming",
@@ -181,5 +202,22 @@
     "links": [
       { "label": "View full project", "href": "https://sites.google.com/view/inayatkang/projects/finger-exoskeleton?authuser=0" }
     ]
+  },
+  {
+    "id": "self-stabilizing-spoon",
+    "featured": false,
+    "title": "Self-Stabilizing Spoon",
+    "summary": "One of my first projects: an adaptive spoon for people with Parkinson's who experience hand tremors, using a Circuit Playground, servo motors, and a 3D-designed spoon attachment.",
+    "image": "img/portfolio/spoon/prototype-held.png",
+    "tags": ["Hardware", "Assistive", "Biomedical"],
+    "category": "Project",
+    "overview": "I designed and built a self-stabilizing spoon that counters hand tremors so the utensil stays more level while eating. The system uses gyroscope data from a Circuit Playground to control the rotation of servo motors attached to a 3D-printed spoon.",
+    "problem": "People with Parkinson's can struggle with eating because hand tremors make it hard to keep a utensil steady.",
+    "approach": "Built a prototype with a Circuit Playground, servo motors, and a 3D-designed spoon attachment. Python code reads gyroscope data and drives the motors to keep the spoon upright.",
+    "contribution": "Designed the concept, built the prototype, and wrote the CircuitPython control code.",
+    "technical": "Adafruit Circuit Playground Express · servo motors · 3D-designed spoon attachment · CircuitPython · gyroscope / accelerometer stabilization.",
+    "impact": "Early assistive hardware project exploring tremor compensation for Parkinson's.",
+    "future": "",
+    "links": []
   }
 ]

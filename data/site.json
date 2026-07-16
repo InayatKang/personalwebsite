@@ -3,12 +3,11 @@
   "tagline": "Exploring the intersection of technology, medicine, and human potential.",
   "roles": ["Developer", "Founder", "Researcher"],
   "location": "Calgary",
-  "email": "inayat.kang1@gmail.com",
+  "email": "inayat.kang1 at gmail dot com",
   "social": {
     "twitter": "https://x.com/KangInayat",
     "linkedin": "https://www.linkedin.com/in/inayat-kang-040475255/",
-    "substack": "https://inayatkang.substack.com/",
-    "goodreads": "https://www.goodreads.com/"
+    "substack": "https://inayatkang.substack.com/"
   },
   "about": [
     "I'm an 18-year-old from Calgary with an ambition to create positive change in the world through empathy-based innovations.",

@@ -3,20 +3,21 @@
     {
       "id": "drone-idcl",
       "title": "Drone Designer — Intelligent Dynamics Control Lab",
-      "type": "Research Experience",
+      "type": "Research",
       "date": "2024",
       "organization": "University of Calgary · WISE Program · Intelligent Dynamics Control Lab",
-      "summary": "As part of the WiseUCalgary research program at the University of Calgary, I developed a real-time crop monitoring drone system integrating IoT sensors. This project aimed to optimize crop health and water usage by tracking environmental data such as temperature, humidity, and light levels. Collaborating with a multidisciplinary team, I gained hands-on experience in sensor integration and data analysis, contributing to a low-cost solution that enhances agricultural efficiency while minimizing fieldwork. This opportunity deepened my understanding of the intersection between technology and sustainable farming practices.",
-      "contribution": "Real-time crop monitoring drone system with IoT sensor integration for environmental tracking and irrigation insights.",
+      "summary": "As part of the WiseUCalgary research program at the University of Calgary, I developed a real-time crop monitoring drone system integrating an esp8266, DHT11, Photoresistor and HC-SRO4, to track field conditions and data remotely, optimizing crop health and water usage. Collaborating with a multidisciplinary team, I gained hands-on experience in sensor integration and data analysis, contributing to a low-cost solution that enhances agricultural efficiency while minimizing fieldwork. This opportunity deepened my understanding of the intersection between technology and sustainable farming practices.",
+      
       "outcomes": "WISE STEM Award; presented at WISE Research Symposium.",
       "links": [
-        { "label": "Medium research write-up", "href": "https://medium.com/@inayat.kang1/the-new-direction-for-farming-how-im-making-it-smarter-87120671ee98" }
+        { "label": "Full Project Article", "href": "https://medium.com/@inayat.kang1/the-new-direction-for-farming-how-im-making-it-smarter-87120671ee98" },
+        { "label": "Project and Poster Overview", "href": "https://www.linkedin.com/posts/inayatkang_the-future-of-farming-isnt-just-about-producing-activity-7239125709904891905-382a?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7lGPAByCEOfZuOQNNev7Dfs-dya1NPTUs" }
       ]
     },
     {
       "id": "vast-platform",
       "title": "Researcher — Vascular Training Platform",
-      "type": "Research Experience",
+      "type": "Research",
       "date": "2024",
       "organization": "VAST Platform · University of Calgary",
       "summary": "I gained hands-on expertise in advanced neuroimaging techniques, including MRI scans and Transcranial Doppler Ultrasound, to assess and analyze cerebral health. Collaborating with leading experts in the field allowed me to deepen my knowledge of neuroimaging applications and vascular health. Additionally, I engaged in cognitive assessments, gaining insights into how lifestyle factors can influence dementia prevention. This experience has equipped me with the skills and knowledge necessary to contribute to future innovations in medical science.",
@@ -29,55 +30,49 @@
     {
       "id": "crustex-research",
       "title": "Solving the Microplastic Crisis — Crustex",
-      "type": "Research",
+      "type": "Project",
       "date": "2023–2024",
       "organization": "TKS Hackathon",
-      "summary": "Hackathon project where my group and I developed Crustex, a sustainable solution to the rising numbers of microplastics found in synthetic clothing. Received the Most Innovative Idea Award from TKS.",
-      "contribution": "Co-developed Crustex — a biosynthetic textile approach to reducing microplastic shedding from clothing.",
+      "summary": "Hackathon project where my group and I developed Crustex, a sustainable solution to the rising numbers of microplastics found in synthetic clothing. It uses crustacean shells, that are typically thrown away, to create a biodegradable textile that is both sustainable and effective at reducing microplastic shedding from clothing. Chitosan is extracted from the shells and used to create the textile.",
+      
       "outcomes": "Most Innovative Idea Award from TKS.",
       "links": [
-        { "label": "Medium research", "href": "https://medium.com/@inayat.kang1/solving-the-microplastic-crisis-using-biosynthetic-textiles-ee7470563414" },
+        { "label": "Research Article", "href": "https://medium.com/@inayat.kang1/solving-the-microplastic-crisis-using-biosynthetic-textiles-ee7470563414" },
         { "label": "Project website", "href": "https://crustex.typedream.app/" }
       ]
     }
   ],
   "publications": [
     {
-      "title": "University First Year Reflection Newsletter",
-      "summary": "Year in review newsletter reflecting on the past year and where I've been and where I'm going.",
+      "title": "Year in Review: Where I've Been (and What I've Been Building)",
+      "summary": "University first-year reflection — starting at UBC, the finger flexion project, hackathon wins, and navigating uncertainty.",
       "date": "2026",
       "organization": "Substack",
       "type": "Newsletter",
-      "image": "img/portfolio/14.jpg",
+      "image": "img/portfolio/16.jpg",
       "href": "https://inayatkang.substack.com/p/year-in-review-where-ive-been-and"
     },
     {
       "title": "Tapping into the Brain to Control a Keyboard",
-      "summary": "Project research on extracting Muse headset brainwaves to detect blinks and control keyboard commands for accessibility.",
+      "summary": "Extracted brainwaves by reverse engineering the Muse headsetto detect blinks and control keyboard commands for accessibility.",
       "date": "2024",
       "organization": "Medium",
-      "type": "Technical Writing",
+      "type": "Project",
       "image": "img/portfolio/1.jpg",
       "href": "https://medium.com/@inayat.kang1/tapping-into-the-brain-to-control-a-keyboard-b2d206827a04"
     },
+
+
     {
-      "title": "The New Direction for Farming — How I'm Making It Smarter",
-      "summary": "Research write-up on data-driven farming, IoT crop monitoring, and the WISE research symposium presentation.",
+      "title": "Brain Controlled Drone  ",
+      "summary": "",
       "date": "2024",
       "organization": "Medium",
       "type": "Article",
       "image": "img/portfolio/2.jpg",
       "href": "https://medium.com/@inayat.kang1/the-new-direction-for-farming-how-im-making-it-smarter-87120671ee98"
     },
-    {
-      "title": "Solving the Microplastic Crisis Using Biosynthetic Textiles",
-      "summary": "Research on Crustex and biosynthetic approaches to microplastic pollution from synthetic clothing.",
-      "date": "2024",
-      "organization": "Medium",
-      "type": "Article",
-      "image": "img/portfolio/3.jpg",
-      "href": "https://medium.com/@inayat.kang1/solving-the-microplastic-crisis-using-biosynthetic-textiles-ee7470563414"
-    },
+    
     {
       "title": "Humanity's Newest Superpower: BCI's",
       "summary": "Research writing on brain-computer interfaces and their potential as assistive and transformative technology.",
@@ -87,15 +82,7 @@
       "image": "img/portfolio/9.jpg",
       "href": "https://medium.com/@inayat.kang1/humanitys-newest-superpower-bci-s-7bc46681f006"
     },
-    {
-      "title": "Researching Vascular Diseases at VAST Platform UofC",
-      "summary": "Reflection on researching vascular diseases and neuroimaging at the VAST Platform, University of Calgary.",
-      "date": "2024",
-      "organization": "Substack",
-      "type": "Article",
-      "image": "img/portfolio/7.jpg",
-      "href": "https://substack.com/home/post/p-143061762"
-    },
+    
     {
       "title": "Exposed to New Skills, Fields and Mindsets",
       "summary": "Personal newsletter reflecting on new skills, fields, and mindsets encountered along the journey.",

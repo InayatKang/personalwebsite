@@ -1,93 +1,132 @@
-[
+﻿[
   {
-    "id": "first-robotics",
-    "role": "Outreach Team Lead · Programming & Mechanical",
-    "organization": "FIRST Robotics",
-    "summary": "9277 Outreach Team Lead and programming and mechanical team member.",
-    "image": "img/service/1.jpg",
+    "id": "wearables-lab",
+    "role": "Researcher",
+    "organization": "Wearables and Biointegrated Technologies Lab · University of Calgary",
+    "dates": "May 2026 – Present",
+    "summary": "Developing a fluorescence and colorimetric lateral flow assay (LFA) reader and an accessible open-source quantification app.",
     "responsibilities": [
-      "Founding member of FIRST Robotics Team 9277; served as Design Lead and later led outreach across school robotics teams.",
-      "Contributed to mechanical builds, code development, and strategic planning.",
-      "Spearheaded initiatives to grow STEM awareness in the community."
-    ],
-    "achievements": [
-      "Lead programmer and mentor for FRC Team 10384 — technical development and mentoring younger members in programming and robotics principles.",
-      "Featured in CTV News for community outreach and STEM education with Sparkans Robotics at an international competition."
+      "Building a fluorescence and colorimetric LFA reader alongside an open-source LFA quantification app in Python and R, available on mobile.",
+      "Designing an accessible platform that rivals existing LFA systems costing around $10,000.",
+      "Developing LFAs and validating results using gel electrophoresis and lab experiments."
     ]
   },
   {
-    "id": "adsa-debater",
-    "role": "Debater",
-    "organization": "ADSA",
-    "summary": "Ranked Top 10 in Calgary 2024",
-    "image": "img/service/2.jpg",
+    "id": "muscle-to-movement",
+    "role": "Hardware Engineering Subteam Member",
+    "organization": "Muscle to Movement · UBC",
+    "dates": "Sept. 2025 – Present",
+    "summary": "Building physiotherapy modules that are remote, accessible, and gamified for at-home rehab.",
     "responsibilities": [
-      "Joined school debate team in 2023 — a major shift from STEM-focused activities.",
-      "Trained consistently to improve argumentation, clarity, and presence."
-    ],
-    "achievements": [
-      "Ranked in the top 10 in Calgary and advanced to the provincial level.",
-      "Strengthened communication skills that transfer directly into STEM leadership and presentation."
+      "Developing hardware modules that help patients complete physiotherapy at home with a more engaging, game-like experience.",
+      "Working with ESP32s, custom-made flex sensors, circuitry, electronics, CAD design, and glove fabrication.",
+      "Focusing on making rehab tools more portable and accessible outside clinical settings."
+    ]
+  },
+  {
+    "id": "nurture-biotech",
+    "role": "Co-Founder · Programmer & Product Manager",
+    "organization": "Nurture Biotech",
+    "dates": "Apr. 2024 – Present",
+    "summary": "Postpartum support for mothers — building the app, product vision, and investor conversations.",
+    "responsibilities": [
+      "Developed a mobile app to help new mothers screen for postpartum depression and connect with healthcare and support resources.",
+      "Programmed the app and designed clinician-facing data tools using validated assessments such as the Edinburgh Postnatal Depression Scale (EPDS).",
+      "Pitched to investors and worked with advisors and mentors to collaborate on the company's vision."
+    ]
+  },
+  {
+    "id": "first-robotics",
+    "role": "Mechanical Design & Programming Mentor · Outreach Lead · Drive Coach",
+    "organization": "FIRST Robotics Teams 9277 & 10384",
+    "dates": "Sept. 2022 – Jun. 2025",
+    "summary": "Mentoring, outreach, and competition leadership across Calgary robotics teams.",
+    "responsibilities": [
+      "Led FIRST LEGO League workshops in the community, teaching youth to build and program with LEGO Spike.",
+      "Co-founded an all-girls robotics team, mentoring in mechanical design and programming.",
+      "Served as drive coach and strategy lead during competitions.",
+      "Built skills in Fusion 360, SolidWorks, Java, 3D printing, CNC, and laser cutting.",
+      "Featured on CTV News and by FIRST Robotics for community impact."
+    ]
+  },
+  {
+    "id": "coding-buddies",
+    "role": "Coding Buddies & Math Quest Volunteer",
+    "organization": "Calgary Public Library",
+    "dates": "Sept. 2021 – Jan. 2025",
+    "summary": "Guided children aged 8–12 through coding workshops and math practice sessions.",
+    "responsibilities": [
+      "Explained fundamental programming concepts in an engaging, age-appropriate way.",
+      "Supported students in developing problem-solving and critical thinking skills through hands-on activities.",
+      "Assisted with lesson setup, activity coordination, and building confidence across skill levels."
     ]
   },
   {
     "id": "drone-designer",
-    "role": "Drone Designer",
-    "organization": "University of Calgary · Intelligent Dynamics Control Lab",
-    "summary": "Worked with the Intelligent Dynamics Control Lab to create an efficient method for crop monitoring using IoT drone systems.",
-    "image": "img/service/3.jpg",
+    "role": "Summer Student Intern · Bicopter Designer",
+    "organization": "Intelligent Dynamics Control Lab · University of Calgary",
+    "dates": "Jul. 2024 – Aug. 2024",
+    "summary": "Designed an IoT-based bicopter to monitor crop temperature, humidity, and light levels.",
     "responsibilities": [
-      "Developed a real-time crop monitoring drone system integrating IoT sensors.",
-      "Tracked environmental data such as temperature, humidity, and light levels.",
-      "Collaborated with a multidisciplinary team on sensor integration and data analysis."
-    ],
-    "achievements": [
-      "Contributed to a low-cost solution enhancing agricultural efficiency while minimizing fieldwork.",
-      "WISE STEM Award recipient; presented at WISE Research Symposium."
+      "Integrated real-time sensor data to support irrigation optimization and water efficiency.",
+      "Collaborated with the research team to prototype autonomous agricultural monitoring systems.",
+      "Awarded the UCalgary WISE Research Award for research excellence."
     ]
   },
   {
     "id": "vast-researcher",
-    "role": "Researcher",
+    "role": "Spring Student Research Assistant",
     "organization": "Vascular Training Platform (VAST) · University of Calgary",
-    "summary": "Researched Vascular Diseases and neuroimaging techniques at VAST Platform UofC.",
-    "image": "img/service/4.jpg",
+    "dates": "Mar. 2024 – Apr. 2024",
+    "summary": "Studied cerebral blood flow and brain health through neuroimaging and data analysis.",
     "responsibilities": [
-      "Applied advanced neuroimaging techniques including MRI and Transcranial Doppler Ultrasound.",
-      "Assessed and analyzed cerebral health with leading experts.",
-      "Engaged in cognitive assessments related to lifestyle factors and dementia prevention."
-    ],
-    "achievements": [
-      "Built foundational expertise for future innovations in medical science and neuroimaging applications."
+      "Conducted MRI and Transcranial Doppler analysis to study cerebral blood flow and brain health.",
+      "Analyzed dementia-related datasets using R to identify cognitive and lifestyle trends.",
+      "Supported cognitive testing and data collection for CAN-Protect research studies."
+    ]
+  },
+  {
+    "id": "adsa-debater",
+    "role": "Senior Debater",
+    "organization": "Alberta Student Association",
+    "dates": "Sept. 2023 – Apr. 2024",
+    "summary": "Ranked Top 10 in Calgary (2024) at the provincial level.",
+    "responsibilities": [
+      "Developed strong public speaking, argumentation, and critical thinking skills.",
+      "Competed in policy-based debates requiring rapid analysis and persuasion."
     ]
   },
   {
     "id": "youth-advisor",
     "role": "Youth Advisor",
     "organization": "Government of Alberta",
-    "summary": "Represented 1000+ students in Alberta to work closely with the Minister of Education and fellow council members to address key issues in our education system.",
-    "image": "img/service/5.jpg",
+    "summary": "Represented 1000+ students in Alberta, working with the Minister of Education and council members on education system issues.",
     "responsibilities": [
       "One of 40 students selected province-wide to provide youth perspectives on provincial education.",
-      "Focused on enhancing the COVID reentry plan for students, particularly K-6."
-    ],
-    "achievements": [
-      "Proposed a transition period dedicated to reading and math while leveraging STEAM courses to strengthen skills impacted by educational isolation."
+      "Focused on enhancing the COVID re-entry plan for students, particularly K–6.",
+      "Proposed a transition period dedicated to reading and math while leveraging STEAM courses."
+    ]
+  },
+  {
+    "id": "youth-central",
+    "role": "Events Volunteer",
+    "organization": "Youth Central",
+    "dates": "Sept. 2021 – Jun. 2023",
+    "summary": "Contributed 100+ hours to community service projects across Calgary.",
+    "responsibilities": [
+      "Supported youth, seniors, and vulnerable populations through social, environmental, and cultural initiatives.",
+      "Demonstrated leadership, teamwork, and initiative in collaborative community projects."
     ]
   },
   {
     "id": "cdl-apprentice",
     "role": "Apprentice",
     "organization": "Creative Destruction Lab",
-    "summary": "Shadowed Vincent Chaley, invenstor in prime energy, meeting with startup businesses and gaining insights into entrepreneurship and innovation.",
-    "image": "img/service/6.jpg",
+    "dates": "Apr. 2023",
+    "summary": "Shadowed Vincent Chaley, an investor in prime energy, meeting with startups and learning about entrepreneurship.",
     "responsibilities": [
-      "Attended the 4th seminar of CDL Rockies (April 2023) where startups presented products and development plans to mentors and sponsors.",
-      "Shadowed Vincent Chaley at the intersection of commerce and agriculture."
-    ],
-    "achievements": [
-      "Enhanced public speaking by presenting ideas to mentors.",
-      "Gained business-sector knowledge and expanded professional network around leading technologies."
+      "Attended the 4th seminar of CDL Rockies where startups presented to mentors and sponsors.",
+      "Gained insight at the intersection of commerce and agriculture and expanded my professional network."
     ]
   }
 ]
